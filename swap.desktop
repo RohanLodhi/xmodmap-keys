@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Swap
+Exec=xmodmap -e "keycode 86 = space" && xmodmap -e "keycode 89 = Right" && xmodmap -e "keycode 91 = Down" && xmodmap -e "keycode 90 = Left" && xmodmap -e "keycode 112 = b" && xmodmap -e "keycode 117 = n"
+Terminal=false
+Type=Application
